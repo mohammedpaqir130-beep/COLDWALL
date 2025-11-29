@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COLDWALL – Mobile Games & Apps</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="cw-header">
+    <div class="cw-logo">COLDWALL</div>
+    <nav>
+      <a href="#games">Games</a>
+      <a href="#tools">Tools</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="cw-hero">
+      <div class="cw-hero-content">
+        <h1>Sharp Mobile Games. Built by COLDWALL.</h1>
+        <p>
+          Indie developer crafting fast, arcade-style experiences and smart tools for mobile.
+          Shadow Jump, and many more to come.
+        </p>
+        <div class="cw-hero-buttons">
+          <a class="btn primary" href="#games">View Games</a>
+          <a class="btn secondary" href="#contact">Work with me</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="games" class="cw-section">
+      <h2>Featured Games</h2>
+      <div class="cw-card-grid">
+        <article class="cw-card">
+          <h3>Shadow Jump</h3>
+          <p>
+            Fast 2D action platformer focused on tight movement, dashes and wall-jumps.
+            Built with Godot and designed for Android.
+          </p>
+          <p class="cw-tag">Android • Action • Indie</p>
+        </article>
+
+        <article class="cw-card">
+          <h3>Future Titles</h3>
+          <p>
+            New projects in development: high-speed dash games, combo-based fighters and more.
+            Follow COLDWALL to see what drops next.
+          </p>
+          <p class="cw-tag">Coming soon</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="tools" class="cw-section">
+      <h2>Tools & Tech</h2>
+      <div class="cw-card-grid">
+        <article class="cw-card">
+          <h3>Engine & Stack</h3>
+          <p>
+            • Godot Engine<br />
+            • GDScript & C#<br />
+            • AdMob monetization<br />
+            • GitHub + Vercel deployments
+          </p>
+        </article>
+
+        <article class="cw-card">
+          <h3>What I Focus On</h3>
+          <p>
+            • Smooth controls & game feel<br />
+            • Clean UI for mobile<br />
+            • Small but polished experiences<br />
+            • Ads that don’t ruin the fun
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="cw-section">
+      <h2>About COLDWALL</h2>
+      <p class="cw-text">
+        COLDWALL is an independent developer focused on fast, satisfying mobile games and
+        small web tools. Built from Iraq, aiming for a global audience. The goal is simple:
+        make games that are quick to pick up, hard to put down, and fair with monetization.
+      </p>
+    </section>
+
+    <section id="contact" class="cw-section">
+      <h2>Contact</h2>
+      <p class="cw-text">
+        For collaboration, publishing offers, or feedback about any COLDWALL project,
+        you can reach out via:
+      </p>
+      <ul class="cw-list">
+        <li>Email: <span>your-email-here@example.com</span></li>
+        <li>GitHub: <a href="https://github.com/mohammedpaqir130-beep" target="_blank">mohammedpaqir130-beep</a></li>
+        <li>Google Play developer name: <strong>COLDWALL</strong></li>
+      </ul>
+      <p class="cw-text small">
+        This site is the official developer website for the COLDWALL Google Play and AdMob accounts.
+      </p>
+    </section>
+  </main>
+
+  <footer class="cw-footer">
+    <p>© <span id="year"></span> COLDWALL. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
